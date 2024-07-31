@@ -14,3 +14,7 @@ print(int("123") + int("123"))
 
 # Numbers can be converted into strings
 print(str(123) + str(123))
+
+# In case you need ASCII values of a char
+print(ord("a"))
+print(ord("b"))
