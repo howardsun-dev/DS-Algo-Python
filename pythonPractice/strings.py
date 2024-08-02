@@ -18,3 +18,7 @@ print(str(123) + str(123))
 # In case you need ASCII values of a char
 print(ord("a"))
 print(ord("b"))
+
+# Combine a list of strings (with an empty string delimiter)
+strings = ["ab", "cd", "ef"]
+print(" ".join(strings))
