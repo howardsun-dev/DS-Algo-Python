@@ -19,4 +19,6 @@ solution = Solution()
 s = "racecar"
 t = "carrace"
 
+print(Counter(s))
+print(Counter(t))
 print(solution.isAnagram(s, t))
